@@ -2,7 +2,7 @@
 
 <p>This repository contains an application for visualising cell proliferation kinetics using a basic implementation of the Cohort method. This application was written in Java and the source code is also provided.<p>
 
-<p>It is assumed that you are familiar with lymphocyte proliferation assays using division tracking dyes (such as CellTrace<sup>TM</sup> Violet), and basic principles of the method. You can get an overview of these ideas from the <a href="https://github.com/hodgkinlab/cohort-method/blob/master/documents/Kan - cohort.pdf">poster</a> located in this repository, and you can get a deeper understanding of the method from publications [1,2,3].<p>
+<p>It is assumed that you are familiar with lymphocyte proliferation assays using division tracking dyes (such as CellTrace<sup>TM</sup> Violet), and basic principles of the method. You can get an overview of these ideas from the <a href="https://github.com/hodgkinlab/cohort-method/blob/master/documents/Kan_cohort_poster.pdf">poster</a> located in this repository, and you can get a deeper understanding of the method from publications [1,2,3].<p>
 
 <p>For any further enquires regarding either using or developing this software please contact <a href="mailto:akan@wehi.edu.au">Andrey Kan</a> from the laboratory of <a href="http://www.wehi.edu.au/people/phil-hodgkin">Professor Phil Hodgkin</a> at the <a href="http://www.wehi.edu.au/">Walter and Eliza Hall Institute</a>.<p>
 
