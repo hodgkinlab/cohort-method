@@ -1,0 +1,39 @@
+# Ignore Eclipse specific project files
+.metadata
+.recommenders
+*.classpath
+/.settings/
+
+*/*/nbactions.xml
+
+# Files generated when running application
+selections.recent
+*/selections.recent
+import.recent
+*/import.recent
+#ignore serialized workspace
+*.workspace
+*/*.workspace
+#ignore log files
+*.log
+
+# Ignore the build output text files
+assembly.txt
+build.txt
+deploy.txt
+test.txt
+
+# Include some convinient launch configurations for eclipse
+!/.metadata/.plugins/org.eclipse.debug.core/.launches/Cohort - Main Method.launch
+!/.metadata/.plugins/org.eclipse.debug.core/.launches/Cohort - Produce Executable Jar.launch
+!/.metadata/.plugins/org.eclipse.debug.core/.launches/Cohort - Test All.launch
+!/.metadata/.plugins/org.eclipse.debug.core/.launches/Common - Test All.launch
+!/.metadata/.plugins/org.eclipse.debug.core/.launches/Graphplot - Test All.launch
+!/.metadata/.plugins/org.eclipse.debug.core/.launches/Proliferation - Clean.launch
+!/.metadata/.plugins/org.eclipse.debug.core/.launches/Proliferation - Test All.launch
+
+#Ignore temporary files
+*.tmp
+
+# Recent Workspaces Problem
+/cell/

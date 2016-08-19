@@ -1,0 +1,1 @@
+call mvn -f proliferation/pom.xml clean compile test

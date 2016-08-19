@@ -1,0 +1,17 @@
+# Ignore Eclipse .metadata
+/.settings/
+.project
+
+target
+
+/**/.pydevproject
+/**/.project
+/**/.classpath
+*.class
+
+/**/.settings/
+/**/target/
+/**/bin/
+
+# Recent Workspaces Problem
+/cell/

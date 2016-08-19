@@ -1,0 +1,106 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>edu.wehi</groupId>
+		<artifactId>proliferation</artifactId>
+		<version>2.0.0</version>
+	</parent>
+	<artifactId>proliferation-graphplot</artifactId>
+
+
+	<dependencies>
+
+		<!-- JUNG -->
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-algorithms</artifactId>
+			<version>${jung.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-api</artifactId>
+			<version>${jung.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-graph-impl</artifactId>
+			<version>${jung.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-visualization</artifactId>
+			<version>${jung.version}</version>
+		</dependency>
+
+		<!-- GRAPHPLOT -->
+		<dependency>
+			<groupId>edu.wehi</groupId>
+			<artifactId>proliferation-common</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+
+		<!-- JFREE CHART PLOTTING LIBRARY -->
+		<dependency>
+			<groupId>org.jfree</groupId>
+			<artifactId>jfreechart</artifactId>
+			<version>${jfreechart.version}</version>
+		</dependency>
+
+		<!-- DOCKING FRAMES -->
+		<dependency>
+			<groupId>org.dockingframes</groupId>
+			<artifactId>docking-frames-common</artifactId>
+			<version>${dockingframes.version}</version>
+		</dependency>
+
+		<!-- JYTHON FOR EMBEDDING SCRIPTING IF NEEDED -->
+		<dependency>
+			<groupId>org.python</groupId>
+			<artifactId>jython-standalone</artifactId>
+			<version>${jython.version}</version>
+		</dependency>
+
+		<!-- APACHE BATIK -->
+		<dependency>
+			<groupId>batik</groupId>
+			<artifactId>batik-util</artifactId>
+			<version>${batik.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>batik</groupId>
+			<artifactId>batik-svg-dom</artifactId>
+			<version>${batik.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>batik</groupId>
+			<artifactId>batik-svggen</artifactId>
+			<version>${batik.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>batik</groupId>
+			<artifactId>batik-rasterizer</artifactId>
+			<version>${batik.version}</version>
+		</dependency>
+
+
+		<!-- APACHE FOP FOR PDF EXPORT -->
+		<dependency>
+			<groupId>org.apache.xmlgraphics</groupId>
+			<artifactId>fop</artifactId>
+			<version>1.0</version>
+		</dependency>
+	 <dependency>
+	  <groupId>org.ejml</groupId>
+	  <artifactId>all</artifactId>
+	  <version>0.29</version>
+	 </dependency>
+	</dependencies>
+
+</project>

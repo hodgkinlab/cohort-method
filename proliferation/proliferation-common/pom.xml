@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>edu.wehi</groupId>
+		<artifactId>proliferation</artifactId>
+		<version>2.0.0</version>
+	</parent>
+	<artifactId>proliferation-common</artifactId>
+
+	<dependencies>
+
+		<!-- DOCKING FRAMES -->
+		<dependency>
+			<groupId>org.dockingframes</groupId>
+			<artifactId>docking-frames-common</artifactId>
+			<version>${dockingframes.version}</version>
+		</dependency>
+
+		<!-- JYTHON FOR EMBEDDING SCRIPTING IF NEEDED -->
+		<dependency>
+			<groupId>org.python</groupId>
+			<artifactId>jython-standalone</artifactId>
+			<version>${jython.version}</version>
+		</dependency>
+
+		<!-- GUAVA IO -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava-io</artifactId>
+			<version>${guava-io.version}</version>
+		</dependency>
+
+		<!-- TANGO ICONS -->
+		<dependency>
+			<groupId>org.tango-project</groupId>
+			<artifactId>tango-icon-theme</artifactId>
+			<version>${tango-icon-theme.version}</version>
+		</dependency>
+
+		<!-- JLATEX MATH -->
+		<dependency>
+			<groupId>org.scilab.forge</groupId>
+			<artifactId>jlatexmath</artifactId>
+			<version>${jlatexmath.version}</version>
+		</dependency>
+
+		<!-- JGOODIES -->
+		<dependency>
+			<groupId>com.jgoodies</groupId>
+			<artifactId>jgoodies-binding</artifactId>
+			<version>${jgoodies-binding.verision}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.jgoodies</groupId>
+			<artifactId>jgoodies-forms</artifactId>
+			<version>${jgoodies-forms.version}</version>
+		</dependency>
+
+
+
+	</dependencies>
+
+</project>

@@ -1,0 +1,1 @@
+proliferation-common contain utility classes used in the set of proliferation projects.
